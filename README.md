@@ -1,4 +1,4 @@
-## ECE-1204_2310042_Assignment
+## ECE-1204_2310042_Lab
 <div align="center">
   
 _**Heaven’s Light is Our Guide**_
