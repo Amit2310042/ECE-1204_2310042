@@ -51,7 +51,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0b9e3fdc-d9c9-4acc-a00a-20a525ec07c1">
+<img src="https://github.com/user-attachments/assets/de75a111-c29d-4451-8a5a-9c18dbe3ac48">
 
 
 
