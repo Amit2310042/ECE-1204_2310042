@@ -57,3 +57,61 @@ int main()
 
 </p>
 
+
+--------------------------
+
+
+
+## **Experiment No : 02**
+## **Experiment Name : OOP.**
+## **Submission Date : 22 May 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+using namespace std;
+class student
+{
+private:
+    int a = 3;
+    void fun1();
+
+public:
+    int b = 4;
+    void fun2();
+
+protected:
+    int c = 5;
+    void fun3();
+};
+void student::fun1()
+{
+    cout << "fun1" << endl;
+}
+void student::fun2()
+{
+    cout << "fun2" << endl;
+}
+void student::fun3()
+{
+    cout << "fun3" << endl;
+}
+
+int main()
+{
+    student s1;
+    cout << s1.b;
+    s1.fun1();
+    s1.fun2();
+    s1.fun3();
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+
+
+</p>
+
