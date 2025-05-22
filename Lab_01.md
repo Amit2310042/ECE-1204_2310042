@@ -109,7 +109,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/16523463-bf4f-4247-8de7-0e4cec71ecfb">
 
 
 
@@ -181,7 +181,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/2bea9a23-1a58-493e-a027-2f61d256b500">
 
 
 
@@ -252,7 +252,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/0f68cfe3-7987-420b-a07a-e086e841c93e">
 
 
 
@@ -350,7 +350,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/a95ce805-f6f0-403c-a2f3-9e8e0e73b946">
 
 
 
