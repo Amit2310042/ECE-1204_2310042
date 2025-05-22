@@ -115,3 +115,244 @@ int main()
 
 </p>
 
+
+--------------------
+
+
+## **Experiment No : 03**
+## **Experiment Name : OOP.**
+## **Submission Date : 22 May 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+#include <string>
+using namespace std;
+// class car{
+//     private:
+//     string company;
+//     string model;
+//     int year;
+//     public:
+//     void set(string c,string m,int y){
+//         company=c;
+//         model=m;
+//         year=y;
+//         cout<<company<<endl<<model<<endl<<year;
+//     }
+// };
+// int main(){
+//     car c1;
+//     string com,mod;
+//     int ye;
+//     cin>>com>>mod>>ye;
+//     c1.set(com,mod,ye);
+// }
+
+// with constructor
+
+class car
+{
+private:
+    string company;
+    string model;
+    int year;
+
+public:
+    car(string c, string m, int y)  //using constructor...
+    {
+        company = c;
+        model = m;
+        year = y;
+        cout << company << endl
+             << model << endl
+             << year;
+    }
+};
+int main()
+{
+    string com, mod;
+    int ye;
+    cin >> com >> mod >> ye;
+    car c1(com, mod, ye);
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+
+
+</p>
+
+
+------------------------
+
+
+
+## **Experiment No : 04**
+## **Experiment Name : OOP.**
+## **Submission Date : 22 May 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+#include <string>
+using namespace std;
+class employee
+{
+private:
+    string name;
+    int id;
+    int salary;
+
+public:
+    void set()
+    {
+        cout << "name" << endl;
+        cin >> name;
+        cout << "id" << endl;
+        cin >> id;
+        cout << "salary";
+        cin >> salary;
+    }
+    void get()
+    {
+        int n;
+        int highest;
+        int index = 0;
+        cout << "Enter employee number" << endl;
+        cin >> n;
+        employee arr[n];
+        for (int i = 0; i < n; i++)
+        {
+            arr[i].set();
+        }
+        highest = arr[0].salary;
+        for (int i = 0; i < n; i++)
+        {
+            if (arr[i].salary > highest)
+            {
+                highest = arr[i].salary;
+                index = i;
+            }
+        }
+        cout << "highest salary " << highest << endl;
+        cout << "person :" << arr[index].name <<endl<< arr[index].id <<endl<< arr[index].salary << endl;
+    }
+};
+int main()
+{
+    employee obj;
+    obj.get();
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+
+
+</p>
+
+
+-----------------------
+
+
+
+## **Experiment No : 05**
+## **Experiment Name : OOP.**
+## **Submission Date : 22 May 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+#include <string>
+using namespace std;
+class date
+{
+private:
+    int day;
+    int month;
+    int year;
+
+public:
+    void set()
+    {
+        cout << "day" << endl;
+        cin >> day;
+        cout << "month" << endl;
+        cin >> month;
+        cout << "year";
+        cin >> year;
+        get();
+    }
+    void get()
+    {
+        int count = 0;
+        if ((day >= 1 && day <= 31) && (month >= 1 && month <= 12))
+        {
+            count++;
+        }
+        if (month == 2)
+        {
+            if ((year % 4 == 0) && ((year % 100 != 0) || (year % 400 == 0)))
+            {
+                if (day >= 1 && day <= 29)
+                {
+                    count++;
+                }
+            }
+            else
+            {
+                if (day >= 1 && day <= 28)
+                {
+                    count++;
+                }
+            }
+        }
+        if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+        {
+            if (day >= 1 && day <= 31)
+            {
+                count++;
+            }
+            else
+            {
+                if (day >= 1 && day <= 30)
+                {
+                    count++;
+                }
+            }
+        }
+        if (count == 2)
+        {
+            cout << "day" << day << endl;
+            cout << "month" << month << endl;
+            cout << "year" << year << endl;
+        }
+        else
+        {
+            cout << "Invalid" << endl;
+        }
+    }
+};
+
+int main()
+{
+    date obj;
+    obj.set();
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+
+
+</p>
+
