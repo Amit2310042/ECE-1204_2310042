@@ -45,7 +45,7 @@ _**Heaven’s Light is Our Guide**_
 <div align="center">
 
 ## INDEX:
-| Assignment No. | Title | Link | Remark |
+| Lab No. | Title | Link | Remark |
 | :---: | :---: | :---: | :----: |
-| 01 | OOP |[Assign_1](https://github.com/Amit2310042/ECE-1203/blob/main/Asspgn_1.md)
-| 02 | OOP |[Assign_2](https://github.com/Amit2310042/ECE-1203/blob/main/Asspgn_1.md)
+| 01 | OOP |[Assign_1](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_01.md)
+| 02 | OOP |[Assign_2]()
