@@ -1,5 +1,5 @@
 ## **Experiment No : 01**
-## **Experiment Name : OOP1.**
+## **Experiment Name : Design a system for a company that has two types ofemployees: PermanentEmployee and ContractEmployee. The company also hasa HRDepartment that needs access to private data of all employees to calculate bonuses.**
 ## **Submission Date : 28 May 2025**
 ----------
 
