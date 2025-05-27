@@ -35,6 +35,7 @@ _**Heaven’s Light is Our Guide**_
 ### **AMIT CHANDRA ROY**
 #### Roll No: 2310042
 #### Registration No:1095
+#### CODE FORCE:https://codeforces.com/profile/royamit223399
 #### Department of Electrical and Computer Engineering
 #### Rajshahi University of Engineering and Technology
 #### Rajshahi - 6204
