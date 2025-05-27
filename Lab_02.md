@@ -5,49 +5,74 @@
 
 ## **Code :**
 ```C
-#include <iostream>
-#include <string>
+#include<iostream>
+#include<string>
 using namespace std;
-class Rectangle
-{
-private:
-    int length;
-    int width;
-
-public:
-    void info()
-    {
-        int area = length * width;
-        cout << "area " << area << endl;
-        int para = 2 * (length + width);
-        cout << "para " << para;
-    }
-    void set(int l)
-    {
-        length = l;
-    }
-    int get()
-    {
-        return length;
-    }
-    void set1(int w)
-    {
-        width = w;
-    }
-    int get1()
-    {
-        return width;
-    }
+class Employee{
+    public:
+    string name;
+    int id;
+    double salary;
 };
-int main()
-{
-    Rectangle r1;
-    r1.set(20);
-    r1.set1(5);
-    r1.get();
-    r1.get1();
-    r1.info();
+
+class PermanentEmployee:private Employee{
+    int year;
+    public:
+ PermanentEmployee(string name,int id,double salary,int year);
+ friend class HRDepartment;
+};
+
+class ContractEmployee:private Employee{
+    int duration;
+    public:
+ ContractEmployee(string name,int id,double salary,int duration);
+ friend class HRDepartment;
+};
+
+class HRDepartment{
+    public:
+    double pe_bonus(PermanentEmployee& par);
+    double co_bonus(ContractEmployee& con);
+   void display_par(PermanentEmployee& par);
+   void display_con(ContractEmployee& con);
+};
+
+PermanentEmployee::PermanentEmployee(string name,int id,double salary,int year){
+    this->name=name;
+    this->id=id;
+    this->salary=salary;
+    this->year=year;
 }
+ContractEmployee::ContractEmployee(string name,int id,double salary,int duration){
+    this->name=name;
+    this->id=id;
+    this->salary=salary;
+    this->duration=duration;
+}
+
+double HRDepartment::pe_bonus(PermanentEmployee& par){
+    return 0.1*par.salary + 1000*par.year;
+}
+double HRDepartment::co_bonus(ContractEmployee& con){
+    return 0.05*con.salary;
+}
+void HRDepartment ::display_par(PermanentEmployee& par){
+    cout<<"Bonus for Permanent Employee "<<par.name<<":"<<pe_bonus(par)<<endl;
+}
+void HRDepartment ::display_con(ContractEmployee& con){
+    cout<<"Bonus for Permanent Employee "<<con.name<<":"<<co_bonus(con)<<endl;
+}
+
+int main(){
+    PermanentEmployee p1("amit",2310042,150000,1);
+    ContractEmployee c1("Rohan",2310045,190000,1);
+    HRDepartment h1;
+    h1.display_par(p1);
+    h1.display_con(c1);
+
+
+}
+
 ```
 ## **Output :**
 <p align="center">
