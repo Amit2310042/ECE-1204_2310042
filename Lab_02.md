@@ -76,7 +76,7 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="https://github.com/user-attachments/assets/de75a111-c29d-4451-8a5a-9c18dbe3ac48">
+<img src="https://github.com/user-attachments/assets/4c078ac8-8703-497d-85eb-3a18d11e79e2">
 
 
 
