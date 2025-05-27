@@ -82,3 +82,265 @@ int main(){
 
 </p>
 
+
+
+
+--------------------------------------
+
+
+
+
+
+## **Experiment No : 02**
+## **Experiment Name : A company manages various projects. Each project is handled by a project manager and different types of team members: Developers and Testers.**
+## **Submission Date : 28 May 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+#include<string>
+using namespace std;
+class TeamMember{
+    protected:
+    // friend class promanager;
+    string name;
+    int id;
+    float hourlyrate;
+};
+class Developer:public TeamMember{
+    friend class promanager;
+    int loc;
+    public:
+    Developer(string name,int id,float hourlyrate,int loc);
+    
+};
+class Tester:public TeamMember{
+    int bugs;
+    public:
+    Tester(string name,int id,float hourlyrate,int bugs);
+    friend class promanager;
+
+};
+class promanager{
+    public:
+    double de_cost(Developer& dev);
+    double te_cost(Tester& test);
+    void display_de(Developer& dev);
+    void display_te(Tester& test);
+};
+
+Developer::Developer(string name,int id,float hourlyrate,int loc){
+    this->name=name;
+    this->id=id;
+    this->hourlyrate=hourlyrate;
+    this->loc=loc;
+}
+
+Tester::Tester(string name,int id,float hourlyrate,int bugs){
+    this->name=name;
+    this->id=id;
+    this->hourlyrate=hourlyrate;
+    this->bugs=bugs;
+}
+
+double promanager::de_cost(Developer& dev){
+    return (dev.hourlyrate *160) +(0.1*dev.loc);  
+}
+double promanager::te_cost(Tester& test){
+    return (test.hourlyrate *160) +(50*test.bugs);  
+}
+void promanager::display_de(Developer& dev){
+    cout<<"Cost for Developer"<<dev.name<<":"<<de_cost(dev)<<endl;
+}
+void promanager::display_te(Tester& test){
+    cout<<"Cost for Tester"<<test.name<<":"<<te_cost(test)<<endl;
+}
+int main(){
+    Developer d1("Amit",23100,20,5);
+    Tester t1("Rohan",231002,25,6);
+    promanager p1;
+    p1.display_de(d1);
+    p1.display_te(t1);
+
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4c078ac8-8703-497d-85eb-3a18d11e79e2">
+
+
+
+</p>
+
+
+
+
+---------------------------------------------
+
+
+
+
+## **Experiment No : 03**
+## **Experiment Name : Find Prime Numbers Within a Range (Use class & object)**
+## **Submission Date : 28 May 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Prime{
+    public:
+    int a,b;
+    void input(){
+        cout<<"Input number for starting range:";
+        cin>>a;
+        cout<<"Input number for ending range:";
+        cin>>b;
+    }
+    void dis_prime(){
+        int n=0;
+        for(int num=a;num<=b;num++){
+            
+             if(num==1){
+                    num++;   //1 is not prime
+                }
+            int count=1;
+            for(int i=2;i<=num/2;i++){
+               
+                if(num%i==0){
+                    count=0;
+                    break;
+                }
+            }
+            if(count){
+                n++;
+                cout<< num<<" " ;
+            }
+        }
+        cout<<endl<<"The total number of prime numbers in the range is:"<<n<<endl;
+    }
+};
+int main(){
+    Prime p1;
+    p1.input();
+    cout<<"The prime numbers in range are :"<<endl;
+    p1.dis_prime();
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4c078ac8-8703-497d-85eb-3a18d11e79e2">
+
+
+
+</p>
+
+
+
+
+
+-----------------------------------------------
+
+
+
+## **Experiment No : 04**
+## **Experiment Name : Find the Factorial of a Number (Use friend class)Write a program in C++ to find the factorial of a number.**
+## **Submission Date : 28 May 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class A{
+    int n;
+    public:
+    A(int n){
+        this->n=n;
+    }      
+    friend class B;
+};
+class B{
+    public:
+    int fact=1;
+    void get(A&obj){
+        for(int i=1;i<=obj.n;i++){
+            fact=fact*i;
+        }
+        cout<<fact;
+    }
+};
+int main(){
+    int p;
+    cout<<"Input a number to find the factorial:";
+    cin>>p;
+    A a1(p);
+    B b1;
+    
+    cout<<"The factorial of the given number is:";
+    b1.get(a1);
+}
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4c078ac8-8703-497d-85eb-3a18d11e79e2">
+
+
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------
+
+
+
+
+## **Experiment No : 05**
+## **Experiment Name : Volume of a Cube (Use constructor)**
+## **Submission Date : 28 May 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+#include<cmath>
+using namespace std;
+class Cube{
+    int side;
+    public:
+    Cube(int side){
+        this->side=side;
+        cout<<"The volume of the cube is :";
+        cout<<pow(side,3);
+
+    }
+};
+int main(){
+    cout<<"Input the side of a cube :";
+    int p;
+    cin>>p;
+    Cube c1(p);
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="https://github.com/user-attachments/assets/4c078ac8-8703-497d-85eb-3a18d11e79e2">
+
+
+
+</p>
+
