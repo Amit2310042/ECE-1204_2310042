@@ -1,3 +1,7 @@
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2f011777-4ee9-44ac-b3de-bb4759d2a912">
+
+
 ## **Experiment No : 01**
 ## **Experiment Name : Design a system for a company that has two types ofemployees: PermanentEmployee and ContractEmployee. The company also hasa HRDepartment that needs access to private data of all employees to calculate bonuses.**
 ## **Submission Date : 28 May 2025**
