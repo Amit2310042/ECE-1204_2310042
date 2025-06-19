@@ -129,19 +129,19 @@ This code illustrate that how access specifier works in inheritance using privat
 | Public Inheritance     | private | protected | public |
 | ---------------------- | ------- | --------- | ------ |
 | From own class         | yes     | yes       | yes    |
-| From derived class     | no      | yes       | yes    |
+| From 1st derived class | no      | yes       | yes    |
 | From 2nd derived class | no      | yes       | yes    |
 
 | Protected Inheritance  | private | protected | public |
 | ---------------------- | ------- | --------- | ------ |
 | From own class         | yes     | yes       | yes    |
-| From derived class     | no      | yes       | yes    |
+| From 1st derived class | no      | yes       | yes    |
 | From 2nd derived class | no      | yes       | yes    |
 
 | Private Inheritance    | private | protected | public |
 | ---------------------- | ------- | --------- | ------ |
 | From own class         | yes     | yes       | yes    |
-| From derived class     | no      | yes       | yes    |
+| From 1st derived class | no      | yes       | yes    |
 | From 2nd derived class | no      | no        | no     |
 
 </p>
