@@ -123,6 +123,26 @@ int main(){
 <img src="https://github.com/user-attachments/assets/69562142-7029-42fd-a66f-d878a592c9c2">
 
 
+## **Discussion :**
+This code illustrate that how access specifier works in inheritance using private, protected, and public keywords in object-oriented programming,in C++.It explains what members of a class are accessible when that class is inherited using public, protected, or private inheritance.No matter the type of inheritance, a class can always access its own members.In public inheritance, public members stay public, protected stay protected, but private but private member is not accessible in first derived class.That is same as second derive class.In protected inheritance, both public and protected members of the base class become protected in the first derived class and again private members are not accessible.That is also same as second derive class.In private inheritance, everything public and protected members becomes private in the first derived class, and private members remain inaccessible as always.But in the second derive class all members remain inaccessible that time.
+
+| Public Inheritance     | private | protected | public |
+| ---------------------- | ------- | --------- | ------ |
+| From own class         | yes     | yes       | yes    |
+| From derived class     | no      | yes       | yes    |
+| From 2nd derived class | no      | yes       | yes    |
+
+| Protected Inheritance  | private | protected | public |
+| ---------------------- | ------- | --------- | ------ |
+| From own class         | yes     | yes       | yes    |
+| From derived class     | no      | yes       | yes    |
+| From 2nd derived class | no      | yes       | yes    |
+
+| Private Inheritance    | private | protected | public |
+| ---------------------- | ------- | --------- | ------ |
+| From own class         | yes     | yes       | yes    |
+| From derived class     | no      | yes       | yes    |
+| From 2nd derived class | no      | no        | no     |
 
 </p>
 
