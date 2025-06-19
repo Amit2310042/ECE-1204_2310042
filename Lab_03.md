@@ -146,3 +146,58 @@ This code illustrate that how access specifier works in inheritance using privat
 
 </p>
 
+-----------------------------------------
+
+
+
+## **Experiment No : 02**
+## **Experiment Name :Constructors in Multilevel Inheritance**
+## **Submission Date : 19 June 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+#include <string>
+using namespace std;
+class BaseClass
+{
+public:
+    BaseClass(int x)
+    {
+        cout << "Base called " << x << endl;
+    }
+};
+class Inter : public BaseClass
+{
+public:
+    Inter(int x, int y) : BaseClass(x)
+    {
+
+        cout << "Inter called " << y << endl;
+    }
+};
+class derive : public Inter
+{
+public:
+    derive(int x, int y, int z) : Inter(x, y)
+    {
+
+        cout << "derive called " << z << endl;
+    }
+};
+int main()
+{
+    derive d1(10, 20, 30);
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="">
+
+
+
+</p>
+
+
