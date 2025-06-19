@@ -120,7 +120,7 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/69562142-7029-42fd-a66f-d878a592c9c2">
 
 
 
