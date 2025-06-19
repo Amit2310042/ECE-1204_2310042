@@ -194,7 +194,7 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/c8e301a8-4e43-4367-8bbc-1d3e35226289">
 
 
 
