@@ -42,4 +42,4 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/3328b99d-1211-4472-a28a-142a653add1b">
