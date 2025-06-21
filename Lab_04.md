@@ -90,3 +90,42 @@ int main(){
 ## **Output :**
 <p align="center">
 <img src="https://github.com/user-attachments/assets/1b45b28b-b6d9-427e-9fa8-af29f9fb2322">
+
+
+------------------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Person{
+  public:
+  virtual void showInfo(){
+    cout<<"Person sound"<<endl;
+
+  }
+
+};
+class Student:public Person{
+    void showInfo() override{
+        cout<<"Student sound"<<endl;
+    }
+};
+
+void fun(Person *p){
+    p->showInfo();
+}
+
+
+int main(){
+    Person *p1;
+    Student s1;
+    p1=&s1;
+    fun(p1);
+}
+
+
+```
+## **Output :**
+<p align="center">
+<img src="">
