@@ -128,4 +128,4 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/9cfbe7c9-45ec-40ac-8d9f-762cdd0e7e58">
