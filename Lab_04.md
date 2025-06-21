@@ -129,3 +129,57 @@ int main(){
 ## **Output :**
 <p align="center">
 <img src="https://github.com/user-attachments/assets/9cfbe7c9-45ec-40ac-8d9f-762cdd0e7e58">
+
+
+--------------------------------
+
+
+
+## **Experiment No : 03**
+## **Experiment Name : Using array pointer**
+## **Submission Date : 21 June 2025**
+----------
+
+## **Code :**
+```C
+#include <iostream>
+using namespace std;
+class Vehicle
+{
+public:
+    virtual void start()
+    {
+        cout << "Vehicle sound" << endl;
+    }
+};
+class Car : public Vehicle
+{
+    void start() override
+    {
+        cout << "Car sound" << endl;
+    }
+};
+class Bike : public Vehicle
+{
+    void start() override
+    {
+        cout << "Bike sound" << endl;
+    }
+};
+
+int main()
+{
+    Vehicle *arr[2];
+    Car c;
+    Bike b;
+    arr[0] = &c;
+    arr[1] = &b;
+    for (int i = 0; i < 2; i++)
+    {
+        arr[i]->start();
+    }
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
