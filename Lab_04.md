@@ -43,3 +43,50 @@ int main(){
 ## **Output :**
 <p align="center">
 <img src="https://github.com/user-attachments/assets/3328b99d-1211-4472-a28a-142a653add1b">
+
+
+-----------------
+
+
+
+
+
+
+## **Experiment No : 02**
+## **Experiment Name : Virtual**
+## **Submission Date : 21 June 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Person{
+  public:
+  virtual void showInfo(){
+    cout<<"Person sound"<<endl;
+
+  }
+
+};
+class Student:public Person{
+    void showInfo() override{
+        cout<<"Student sound"<<endl;
+    }
+};
+
+void fun(Person p){
+    p.showInfo();
+}
+
+
+int main(){
+    Person p1;
+    Student s1;
+    
+    fun(s1);
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
