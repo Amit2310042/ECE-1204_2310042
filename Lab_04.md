@@ -89,4 +89,4 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/1b45b28b-b6d9-427e-9fa8-af29f9fb2322">
