@@ -183,3 +183,58 @@ int main()
 ## **Output :**
 <p align="center">
 <img src="https://github.com/user-attachments/assets/f106dbdd-636c-453c-8ae2-1568038a0439">
+
+
+----------------------------------
+
+
+
+## **Experiment No : 04**
+## **Experiment Name : passing array to the function**
+## **Submission Date : 21 June 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Lib_item{
+  public:
+  virtual void disInfo(){
+    cout<<"Lib sound"<<endl;
+
+  }
+
+};
+class Book:public Lib_item{
+    void disInfo() override{
+        cout<<"Book sound"<<endl;
+    }
+};
+class Magaz:public Lib_item{
+    void disInfo() override{
+        cout<<"Magaz sound"<<endl;
+    }
+};
+void fun( Lib_item* arr[],int n){
+    for(int i=0;i<n;i++){
+        arr[i]->disInfo();
+    }
+}
+
+
+int main(){
+    Lib_item* prr[2];
+    Book b;
+    Magaz m;
+    prr[0]=&b;
+    prr[1]=&m;
+    fun(prr,2);
+}
+
+
+```
+## **Output :**
+<p align="center">
+<img src="">
+
