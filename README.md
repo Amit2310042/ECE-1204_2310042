@@ -51,4 +51,4 @@ _**Heaven’s Light is Our Guide**_
 | 01 | OOP |[Lab_1](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_01.md)
 | 02 | OOP |[Lab_2](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_02.md) |05|
 | 03 | OOP |[Lab_3](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_03.md) |03|
-| 04 | OOP |[Lab_4]() |03|
+| 04 | OOP |[Lab_4](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_04.md) |03|
