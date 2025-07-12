@@ -179,5 +179,63 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
+<img src="https://github.com/user-attachments/assets/0ec46f97-2e12-4fae-b874-fd7f58e4c463">
+
+
+---------------------------------
+
+
+
+## **Experiment No : 04**
+## **Experiment Name : **
+## **Submission Date : 12 July 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Person{
+    string name;
+    int age;
+    public:
+    void set(string name,int age){
+        this->name=name;
+        this->age=age;
+    }
+    void get(){
+        cout<<"Name:"<<name<<endl;
+        cout<<"age"<<age<<endl;
+    }
+};
+int main(){
+    Person*p=new Person;
+    cout<<"Dynamically created object"<<endl;
+    p->set("amit",22);
+    p->get();
+    
+    Person*p1=new Person[3];
+    cout<<"Dynamically created aray of object"<<endl;
+    for(int i=0;i<3;i++){
+        cout<<"Enter info of"<<i<<"person"<<endl;
+        string n;
+        int a;
+        cout<<"enter name"<<endl;
+        cin>>n;
+        cout<<"enter age"<<endl;
+        cin>>a;
+        p1[i].set(n,a);
+
+    }
+
+    for(int i=0;i<3;i++){
+        cout<<"info of"<<i<<"person"<<endl;
+        p1[i].get();
+
+    }
+}
+```
+## **Output :**
+<p align="center">
 <img src="">
 
