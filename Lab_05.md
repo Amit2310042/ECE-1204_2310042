@@ -48,7 +48,7 @@ int main(){
 
 
 
-## **Experiment No : 01**
+## **Experiment No : 02**
 ## **Experiment Name : **
 ## **Submission Date : 12 July 2025**
 ----------
@@ -103,5 +103,5 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/4fd4fcea-5c36-4f91-85ee-623e6590f483">
 
