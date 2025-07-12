@@ -105,3 +105,79 @@ int main(){
 <p align="center">
 <img src="https://github.com/user-attachments/assets/4fd4fcea-5c36-4f91-85ee-623e6590f483">
 
+
+
+-------------------------------------
+
+
+
+
+
+## **Experiment No : 03**
+## **Experiment Name : **
+## **Submission Date : 12 July 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Person
+{
+    public:
+      string name;
+    int age;
+    string city;
+    Person(string name,int age,string city){
+        this->name=name;
+        this->age=age;
+        this->city=city;
+    }
+    void show(){
+        cout<<"Name :"<<name<<endl;
+        cout<<"age :"<<age<<endl;
+        cout<<"city :"<<city<<endl;
+    }
+};
+//pass by value
+void update_per_info(Person p){
+    string c;
+    int a;
+    cout<<"Update age"<<endl;
+    cin>>a;
+    p.age=a;
+    cout<<"Update city"<<endl;
+    cin>>c;
+    p.city=c;
+}
+
+//pass by reference
+void update_per_info(Person* p){
+    string c;
+    int a;
+    cout<<"Update age"<<endl;
+    cin>>a;
+    p->age=a;
+    cout<<"Update city"<<endl;
+    cin>>c;
+    p->city=c;
+}
+int main(){
+    Person o1("Amit",22,"Sreemangal");
+    cout<<"Before fun call"<<endl;
+    o1.show();
+
+    cout<<"call by value"<<endl;
+    update_per_info(o1);
+    o1.show();
+
+    cout<<"call by ref"<<endl;
+    update_per_info(&o1);
+    o1.show();
+
+}
+```
+## **Output :**
+<p align="center">
+<img src="">
+
