@@ -297,3 +297,53 @@ int main(){
 ## **Output :**
 <p align="center">
 <img src="https://github.com/user-attachments/assets/bada737c-3a4e-4423-bb68-145b48181077">
+
+------------------------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Queue
+{
+    char arr[10];
+    int start,end;
+    public:
+    Queue(){
+        start=0,end=0;
+    }
+    void push(char ch){
+        if(end==10){
+            cout<<"Queue is full"<<endl;
+        }
+        else{
+            arr[end]=ch;
+            end++;
+        }
+    }
+    char pop(){
+        if(start==end){
+            cout<<"stack is empty"<<endl;
+        }
+        else{
+            char ch=arr[start];
+            start++;
+            return ch;
+        }
+    }
+};
+int main(){
+    Queue* q=new Queue;
+    q->push('1');
+    q->push('2');
+    q->push('3');
+    cout<<q->pop();
+    cout<<q->pop();
+    cout<<q->pop();
+    
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="">
