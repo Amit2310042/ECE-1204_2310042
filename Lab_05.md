@@ -346,4 +346,4 @@ int main(){
 ```
 ## **Output :**
 <p align="center">
-<img src="">
+<img src="https://github.com/user-attachments/assets/5b58bb0a-ae95-4c79-9443-27be56a87563">
