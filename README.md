@@ -52,4 +52,4 @@ _**Heaven’s Light is Our Guide**_
 | 02 | OOP |[Lab_2](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_02.md) |05|
 | 03 | OOP |[Lab_3](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_03.md) |03|
 | 04 | OOP |[Lab_4](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_04.md) |03|
-| 05 | OOP |[Lab_5](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_05.md) |03|
+| 05 | Dynamic Memory |[Lab_5](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_05.md) |03|
