@@ -239,3 +239,61 @@ int main(){
 <p align="center">
 <img src="https://github.com/user-attachments/assets/ac75c23d-bc30-4930-8f13-ec77a4fdc0bb">
 
+
+----------------------------
+
+
+
+
+## **Experiment No : 05**
+## **Experiment Name : **
+## **Submission Date : 17 July 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Stack
+{
+    char arr[10];
+    int tos;
+    public:
+    Stack(){
+        tos=0;
+    }
+    void push(char ch){
+        if(tos==10){
+            cout<<"stack is full"<<endl;
+        }
+        else{
+            arr[tos]=ch;
+            tos++;
+        }
+    }
+    char pop(){
+        if(tos==0){
+            cout<<"stack is empty"<<endl;
+        }
+        else{
+            
+            tos--;
+            return arr[tos];
+        }
+    }
+};
+int main(){
+    Stack*s1=new Stack;
+    s1->push('a');
+    s1->push('b');
+    s1->push('c');
+    cout<<s1->pop()<<endl;
+    cout<<s1->pop()<<endl;
+    cout<<s1->pop()<<endl;
+    
+}
+
+```
+## **Output :**
+<p align="center">
+<img src="">
