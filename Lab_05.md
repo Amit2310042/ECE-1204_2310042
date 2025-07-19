@@ -68,6 +68,7 @@ class Stack
     void push(char ch){
         if(tos==10){
             cout<<"stack is full"<<endl;
+            return;
         }
         else{
             arr[tos]=ch;
@@ -77,6 +78,7 @@ class Stack
     char pop(){
         if(tos==0){
             cout<<"stack is empty"<<endl;
+            return 0;
         }
         else{
             
@@ -265,6 +267,7 @@ class Stack
     void push(char ch){
         if(tos==10){
             cout<<"stack is full"<<endl;
+            return ;
         }
         else{
             arr[tos]=ch;
@@ -274,6 +277,7 @@ class Stack
     char pop(){
         if(tos==0){
             cout<<"stack is empty"<<endl;
+            return 0;
         }
         else{
             
