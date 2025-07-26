@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7a87bb59-4ba0-4dfc-ad90-e0eb1ca416cf">
+<img width="1885" height="323" alt="image" src="https://github.com/user-attachments/assets/10d5eafe-92bb-4b26-b7af-02b7cb40e26e" />
 
 
 ## **Experiment No : 01**
