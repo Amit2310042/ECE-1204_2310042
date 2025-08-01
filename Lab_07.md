@@ -1,6 +1,7 @@
 
 <p align="center">
-<img width="1885" height="323" alt="image" src="https://github.com/user-attachments/assets/10d5eafe-92bb-4b26-b7af-02b7cb40e26e" />
+<img width="1873" height="706" alt="image" src="https://github.com/user-attachments/assets/ed265189-32cd-441a-b0f7-cc464d7563b6" />
+
 
 
 ## **Experiment No : 01**
