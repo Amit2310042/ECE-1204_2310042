@@ -48,12 +48,12 @@ _**Heaven’s Light is Our Guide**_
 ## INDEX:
 | Lab No. | Title | Link | CODE-FORCE |
 | :---: | :---: | :---: | :----: |
-| 01 | OOP |[Lab_1](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_01.md)
-| 02 | OOP |[Lab_2](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_02.md) |05|
-| 03 | OOP |[Lab_3](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_03.md) |03|
-| 04 | OOP |[Lab_4](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_04.md) |03|
-| 05 | Dynamic Memory |[Lab_5](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_05.md) |03|
-| 06 | Dynamic Memory |[Lab_6](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_06.md) |01|
+| 01 | Codeforces Submissions |[Lab_1](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_01.md)
+| 02 | Friend Classes |[Lab_2](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_02.md) |05|
+| 03 | Inheritance Modes |[Lab_3](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_03.md) |03|
+| 04 | Function override |[Lab_4](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_04.md) |03|
+| 05 | Dynamic Memory Allocation |[Lab_5](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_05.md) |03|
+| 06 | Mixed Problems |[Lab_6](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_06.md) |01|
 | 07 | Chapter_5 |[Lab_7](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_07.md) |05|
-| 08 | Chapter_6|[Lab_8]() |05|
+| 08 | Chapter_6|[Lab_8](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_08.md) |03|
 
