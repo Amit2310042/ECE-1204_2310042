@@ -675,3 +675,66 @@ int main(){
 ## **Output :**
 <p align="center">
 <img width="1647" height="335" alt="image" src="https://github.com/user-attachments/assets/65161d48-861b-45f6-889a-0cc8337fa49c" />
+
+
+---------------------------
+
+
+
+
+
+
+
+## **Experiment No : 04**
+## **Experiment Name :**Write a program that overloades the increment operator of a class via memeber function and overloads the decrement operator via a friend function .
+## **Submission Date : 8 August 2025**
+----------
+
+## **Code :**
+```C
+#include<iostream>
+using namespace std;
+class Roy
+{
+    int a,b,c;
+    public:
+    Roy(){a=b=c=0;}
+    Roy(int i,int j,int k){a=i;b=j;c=k;}
+    Roy operator++();
+    friend Roy operator--(Roy &obj);
+    void show(){
+        cout<<"Val_a :"<<" "<<a<<endl;
+        cout<<"Val_b :"<<" "<<b<<endl;
+        cout<<"Val_c :"<<" "<<c<<endl;
+    }
+};
+Roy Roy::operator++(){
+    ++a;
+    ++b;
+    ++c;
+    return *this;
+}
+Roy operator--(Roy &obj){
+    --obj.a;
+    --obj.b;
+    --obj.c;
+    return obj;
+}
+
+int main()
+{
+    Roy r1(2,3,4);
+    ++r1;
+    r1.show();
+
+    --r1;
+    r1.show();
+
+    return 0;
+}
+```
+## **Output :**
+<p align="center">
+<img width="1897" height="591" alt="image" src="https://github.com/user-attachments/assets/ebbd9460-2a56-4802-9b96-8438b4e9a774" />
+
+
