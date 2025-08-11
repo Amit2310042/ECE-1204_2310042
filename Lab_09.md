@@ -57,7 +57,8 @@ int main()
 ```
 ## **Output :**
 <p align="center">
-<img width="1657" height="472" alt="image" src="https://github.com/user-attachments/assets/52c9df24-b867-43e2-a081-15d8e7e840b8" />
+<img width="1643" height="583" alt="image" src="https://github.com/user-attachments/assets/b5f84ebe-654c-4069-8967-d94b39f67598" />
+
 
 
 
