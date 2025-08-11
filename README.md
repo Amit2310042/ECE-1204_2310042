@@ -56,4 +56,6 @@ _**Heaven’s Light is Our Guide**_
 | 06 | Mixed Problems |[Lab_6](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_06.md) |01|
 | 07 | Chapter_5 |[Lab_7](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_07.md) |05|
 | 08 | Chapter_6|[Lab_8](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_08.md) |05|
+| 09 | Dymond Shape Problem|[Lab_9]() |00|
+
 
