@@ -1,3 +1,9 @@
+
+
+
+<img width="1810" height="766" alt="image" src="https://github.com/user-attachments/assets/142b327c-f4f0-481f-8d5e-06c31cfbed71" />
+
+
 ## **Experiment No : 01**
 ## **Experiment Name :**Write a C++ program to implement a class called Shape with virtual member functions for calculating area and perimeter. Derive classes such as Circle, Rectangle, and Triangle from the Shape class and override virtual functions accordingly.(use pure virtual function)
 ## **Submission Date : 12 August 2025**
