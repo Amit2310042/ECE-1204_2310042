@@ -57,5 +57,5 @@ _**Heaven’s Light is Our Guide**_
 | 07 | Chapter_5 |[Lab_7](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_07.md) |05|
 | 08 | Chapter_6|[Lab_8](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_08.md) |05|
 | 09 | Dymond Shape Problem|[Lab_9](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_09.md) |07|
-| 10 | Chapter_11 related Problem|[Lab_9](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_10.md) |07|
+| 10 | Chapter_11 related Problem|[Lab_10](https://github.com/Amit2310042/ECE-1204_2310042/blob/main/Lab_10.md) |07|
 
