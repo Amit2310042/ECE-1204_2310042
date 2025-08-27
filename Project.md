@@ -1140,6 +1140,22 @@ int main()
     }
 }
 ```
+
 ## **Output :**
 <p align="center">
+
+## **Discussion :**
+<img width="1057" height="707" alt="image" src="https://github.com/user-attachments/assets/8ba55fa2-018a-4a48-8212-cfdca6fa060d" />
+<img width="1506" height="511" alt="image" src="https://github.com/user-attachments/assets/bc9f5c12-ab95-4f02-9c7e-9eb660f2a573" />
+<img width="1441" height="722" alt="image" src="https://github.com/user-attachments/assets/9eb6f0dd-7e65-43fd-972b-7d982010cdff" />
+<img width="905" height="466" alt="image" src="https://github.com/user-attachments/assets/7c9668e3-626e-473a-a1c5-44726ba5b1ce" />
+<img width="651" height="691" alt="image" src="https://github.com/user-attachments/assets/ed379712-e27f-4396-b779-dcf9abc189d2" />
+
+
+
+
+
+
+
+
 
