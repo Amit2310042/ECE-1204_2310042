@@ -3,7 +3,7 @@
 
 
 ## **Experiment No : 01**
-## **Experiment Name : **
+## **Experiment Name : Create a class Box that represents a 3D box with length, width, and height.**
 ## **Submission Date : 12 July 2025**
 ----------
 
@@ -49,7 +49,7 @@ int main(){
 
 
 ## **Experiment No : 02**
-## **Experiment Name : **
+## **Experiment Name : Stack**
 ## **Submission Date : 12 July 2025**
 ----------
 
